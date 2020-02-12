@@ -1,0 +1,61 @@
+TIPO		LEXEMA		Linea		
+<SYSTEM_RESERVED>		package		1		
+<IDENTIFIERS>		analizador		1		
+<SIMBOLS>		;		1		
+<SYSTEM_RESERVED>		public		2		
+<SYSTEM_RESERVED>		class		2		
+<IDENTIFIERS>		Prueba		2		
+<SYSTEM_RESERVED>		extends		2		
+<IDENTIFIERS>		Analizador		2		
+<SIMBOLS>		{		2		
+<SYSTEM_RESERVED>		public		3		
+<SYSTEM_RESERVED>		static		3		
+<SYSTEM_RESERVED>		void		3		
+<IDENTIFIERS>		main2		3		
+<SIMBOLS>		(		3		
+<SYSTEM_RESERVED>		String		3		
+<SIMBOLS>		]		3		
+<IDENTIFIERS>		args		3		
+<SIMBOLS>		)		3		
+<SIMBOLS>		{		3		
+<SYSTEM_RESERVED>		System.out.println		4		
+<SIMBOLS>		(		4		
+<STRING>		"ANALIZADOR_LEXICO"		4		
+<SIMBOLS>		+		4		
+<STRING>		"HOLA_HOLA"		4		
+<SIMBOLS>		+		4		
+<STRING>		"hola:"		4		
+<SIMBOLS>		)		4		
+<SIMBOLS>		;		4		
+<SYSTEM_RESERVED>		int		5		
+<IDENTIFIERS>		bb		5		
+<SIMBOLS>		;		5		
+<EXPRESSION>		bb=0		6		
+<SIMBOLS>		;		6		
+<EXPRESSION>		bb=bb+1		7		
+<SIMBOLS>		;		7		
+<SIMBOLS>		}		8		
+<SYSTEM_RESERVED>		public		9		
+<SYSTEM_RESERVED>		int		9		
+<IDENTIFIERS>		Kl		9		
+<SIMBOLS>		()		9		
+<SIMBOLS>		{		9		
+<SYSTEM_RESERVED>		int		10		
+<EXPRESSION>		x=0		10		
+<SIMBOLS>		;		10		
+<SYSTEM_RESERVED>		return		11		
+<IDENTIFIERS>		x		11		
+<SIMBOLS>		;		11		
+<SIMBOLS>		}		12		
+<SIMBOLS>		}		13		
+<SIMBOLS>		}		14		
+
+
+Error		Linea		
+  [m		  2		
+
+
+Se encontro un error en el balanceo de aberturas y cerraduras
+Compruebalo!
+Se encontró un error en la linea: < 3 > 
+    public static void main2 ( String [m ] args ) {
